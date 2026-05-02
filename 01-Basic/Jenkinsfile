@@ -11,7 +11,7 @@ pipeline{
 		stage("Bye"){
 			steps{
 				sh '''
-					echo "Hello this is Bye stage.."
+					echo "Hello this is Bye stage...."
 				'''
 			}
 		}
